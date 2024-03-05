@@ -23,7 +23,7 @@ class ListadoClasesAdapter(private val listadoClasesList: List<ListadoClases>) :
 
     override fun onBindViewHolder(holder: ListadoClasesViewHolder, position: Int) {
         val pokemon = listadoClasesList[position]
-        Picasso.get().load("https://cdn-icons-png.flaticon.com/128/3135/3135707.png").into(holder.ivListadoClases)
+        Picasso.get().load("https://cdn-icons-png.flaticon.com/512/3135/3135715.png").into(holder.ivListadoClases)
         holder.tvListadoClasesName.text = pokemon.name
     }
 
